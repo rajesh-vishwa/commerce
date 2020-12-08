@@ -1,5 +1,5 @@
 import React, { FC, useMemo } from 'react'
-import { ThemeProvider } from 'next-themes'
+//import { ThemeProvider } from 'next-themes'
 
 export interface State {
   displaySidebar: boolean
@@ -180,6 +180,6 @@ export const useUI = () => {
 
 export const ManagedUIContext: FC = ({ children }) => (
   <UIProvider>
-    <ThemeProvider>{children}</ThemeProvider>
+    <>{children}</>
   </UIProvider>
 )
