@@ -79,14 +79,14 @@
 
 .squareBg:before {
   @apply transition ease-in-out duration-500 bg-repeat-space w-full h-full block;
-  background-image: url('/bg-products.svg');
+  /* background-image: url('/bg-products.svg'); */
   content: '';
 }
 
 .simple {
   & .squareBg {
     @apply bg-accents-0 !important;
-    background-image: url('/bg-products.svg');
+    /* background-image: url('/bg-products.svg'); */
   }
 
   & .productTitle {
