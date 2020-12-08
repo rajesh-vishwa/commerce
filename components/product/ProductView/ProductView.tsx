@@ -1,12 +1,12 @@
-import { FC, useState } from 'react'
+import React, { FC, useState } from 'react'
 import cn from 'classnames'
 import Image from 'next/image'
 import { NextSeo } from 'next-seo'
 
 import s from './ProductView.module.css'
 import { useUI } from '@components/ui/context'
-import { Swatch, ProductSlider } from '@components/product'
-import { Button, Container, Text } from '@components/ui'
+import { Swatch, ProductSlider } from '../../product'
+import { Button, Container, Text } from '../../ui'
 
 import usePrice from '@bigcommerce/storefront-data-hooks/use-price'
 import useAddItem from '@bigcommerce/storefront-data-hooks/cart/use-add-item'
