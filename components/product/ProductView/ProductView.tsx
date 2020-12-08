@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { NextSeo } from 'next-seo'
 
 import s from './ProductView.module.css'
-import { useUI } from '@components/ui/context'
+import { useUI } from '../../ui/context'
 import { Swatch, ProductSlider } from '../../product'
 import { Button, Container, Text } from '../../ui'
 
@@ -16,7 +16,7 @@ import {
   getProductOptions,
   SelectedOptions,
 } from '../helpers'
-import WishlistButton from '@components/wishlist/WishlistButton'
+import WishlistButton from '../../wishlist/WishlistButton'
 
 interface Props {
   className?: string

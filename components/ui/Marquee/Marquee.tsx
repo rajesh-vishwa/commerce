@@ -1,6 +1,6 @@
 import cn from 'classnames'
 import s from './Marquee.module.css'
-import { FC, ReactNode, Component } from 'react'
+import React, { FC, ReactNode, Component } from 'react'
 import Ticker from 'react-ticker'
 import { useInView } from 'react-intersection-observer'
 

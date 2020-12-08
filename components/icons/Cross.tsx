@@ -1,3 +1,4 @@
+import React from 'react'
 const Cross = ({ ...props }) => {
   return (
     <svg
