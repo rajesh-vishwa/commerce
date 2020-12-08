@@ -6,7 +6,7 @@ import type { ProductNode } from '@bigcommerce/storefront-data-hooks/api/operati
 import usePrice from '@bigcommerce/storefront-data-hooks/use-price'
 import Image from 'next/image'
 import s from './ProductCard.module.css'
-import WishlistButton from '@components/wishlist/WishlistButton'
+import WishlistButton from '../../wishlist/WishlistButton'
 
 interface Props {
   className?: string

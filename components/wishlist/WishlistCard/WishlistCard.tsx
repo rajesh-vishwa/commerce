@@ -6,9 +6,9 @@ import type { WishlistItem } from '@bigcommerce/storefront-data-hooks/api/wishli
 import usePrice from '@bigcommerce/storefront-data-hooks/use-price'
 import useRemoveItem from '@bigcommerce/storefront-data-hooks/wishlist/use-remove-item'
 import useAddItem from '@bigcommerce/storefront-data-hooks/cart/use-add-item'
-import { useUI } from '@components/ui/context'
-import { Button, Text } from '@components/ui'
-import { Trash } from '@components/icons'
+import { useUI } from '../../ui/context'
+import { Button, Text } from '../../ui'
+import { Trash } from '../../icons'
 import s from './WishlistCard.module.css'
 
 interface Props {

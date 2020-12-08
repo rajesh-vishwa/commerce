@@ -3,13 +3,13 @@ import dynamic from 'next/dynamic'
 import s from './Layout.module.css'
 import { useRouter } from 'next/router'
 import React, { FC } from 'react'
-import { useUI } from '@components/ui/context'
-import { Navbar, Footer } from '@components/common'
+import { useUI } from '../../ui/context'
+import { Navbar, Footer } from '../../common'
 import { useAcceptCookies } from '@lib/hooks/useAcceptCookies'
 import { CommerceProvider } from '@bigcommerce/storefront-data-hooks'
-import { Sidebar, Button, Modal, LoadingDots } from '@components/ui'
+import { Sidebar, Button, Modal, LoadingDots } from '../../ui'
 import type { Page } from '@bigcommerce/storefront-data-hooks/api/operations/get-all-pages'
-import { CartSidebarView } from '@components/cart'
+import { CartSidebarView } from '../../cart'
 
 const Loading = () => (
   <div className="w-80 h-80 flex items-center text-center justify-center p-3">

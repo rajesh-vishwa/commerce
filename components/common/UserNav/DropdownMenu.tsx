@@ -4,9 +4,9 @@ import { FC, useState } from 'react'
 import { useTheme } from 'next-themes'
 import { useRouter } from 'next/router'
 import s from './DropdownMenu.module.css'
-import { Avatar } from '@components/common'
-import { Moon, Sun } from '@components/icons'
-import { useUI } from '@components/ui/context'
+import { Avatar } from '../../common'
+import { Moon, Sun } from '../../icons'
+import { useUI } from '../../ui/context'
 
 import useLogout from '@bigcommerce/storefront-data-hooks/use-logout'
 interface DropdownMenuProps {

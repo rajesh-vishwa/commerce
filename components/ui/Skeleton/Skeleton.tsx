@@ -1,6 +1,6 @@
 import React, { CSSProperties } from 'react'
 import cn from 'classnames'
-import px from '@lib/to-pixels'
+import px from '../../../lib/to-pixels'
 import s from './Skeleton.module.css'
 
 interface Props {

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { FC, useState } from 'react'
 import { useRouter } from 'next/router'
 import s from './I18nWidget.module.css'
-import { Cross } from '@components/icons'
+import { Cross } from '../../icons'
 interface LOCALE_DATA {
   name: string
   img: {

@@ -3,11 +3,11 @@ import Link from 'next/link'
 import cn from 'classnames'
 import useCart from '@bigcommerce/storefront-data-hooks/cart/use-cart'
 import useCustomer from '@bigcommerce/storefront-data-hooks/use-customer'
-import { Heart, Bag } from '@components/icons'
-import { useUI } from '@components/ui/context'
+import { Heart, Bag } from '../../icons'
+import { useUI } from '../../ui/context'
 import DropdownMenu from './DropdownMenu'
 import s from './UserNav.module.css'
-import { Avatar } from '@components/common'
+import { Avatar } from '../../common'
 
 interface Props {
   className?: string
