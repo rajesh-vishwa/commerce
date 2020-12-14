@@ -17,10 +17,14 @@ export default {
 
 const Template = (args: any) => <Swatch {...args} />
 
-export const Primary = Template.bind({})
-
-Primary.args = {
+export const Primary = Template.bind({
   variant: opt.displayName,
   color: '',
   label: v.label,
-}
+})
+
+// Primary.args = {
+//   variant: opt.displayName,
+//   color: '',
+//   label: v.label,
+// }

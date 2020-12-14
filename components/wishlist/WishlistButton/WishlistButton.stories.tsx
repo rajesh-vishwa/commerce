@@ -14,9 +14,12 @@ export default {
 // )
 
 const Template = (args: any) => <WhishlistButton {...args} />
-export const Default = Template.bind({})
-
-Default.args = {
+export const Default = Template.bind({
   entityId: product.entityId,
   variant: product.variants.edges[0],
-}
+})
+
+// Default.args = {
+//   entityId: product.entityId,
+//   variant: product.variants.edges[0],
+// }

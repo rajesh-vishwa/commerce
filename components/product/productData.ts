@@ -1,5 +1,5 @@
 import type { ProductNode } from '@bigcommerce/storefront-data-hooks/api/operations/get-all-products'
-export const productData: ProductNode = {
+export const productData = {
   __typename: 'Product',
   entityId: 115,
   name: 'T-Shirt',
