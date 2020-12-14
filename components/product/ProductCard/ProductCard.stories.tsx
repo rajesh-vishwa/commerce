@@ -1,13 +1,13 @@
 import * as React from 'react'
 import { storiesOf } from '@storybook/react'
 import ProductCard from './ProductCard'
-import { product } from '../ProductView/data'
+import { productData } from '../productData'
 
 storiesOf('ProductCard', module)
   .add('variant simple', () => {
     return (
       <ProductCard
-        product={product}
+        product={productData}
         variant="simple"
         imgWidth={480}
         imgHeight={480}
