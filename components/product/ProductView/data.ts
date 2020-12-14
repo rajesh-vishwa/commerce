@@ -1,4 +1,6 @@
-export const product = {
+import type { ProductNode } from '@bigcommerce/storefront-data-hooks/api/operations/get-all-products'
+
+export const p: ProductNode = {
   __typename: 'Product',
   entityId: 116,
   name: 'Lightweight Jacket',
@@ -358,6 +360,16 @@ export const product = {
               { node: { label: 'L' } },
             ],
           },
+        },
+      },
+    ],
+  },
+  localeMeta: {
+    edges: [
+      {
+        node: {
+          key: 'abc',
+          value: 'etst',
         },
       },
     ],

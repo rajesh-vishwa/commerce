@@ -111,7 +111,7 @@ export const node = {
     edges: [
       {
         node: {
-          __typename: 'MultipleChoiceOption',
+          // __typename: 'MultipleChoiceOption',
           entityId: 135,
           displayName: 'Color',
           values: {
@@ -136,7 +136,7 @@ export const node = {
       },
       {
         node: {
-          __typename: 'MultipleChoiceOption',
+          //__typename: 'MultipleChoiceOption',
           entityId: 136,
           displayName: 'Size',
           values: {
@@ -158,6 +158,16 @@ export const node = {
               },
             ],
           },
+        },
+      },
+    ],
+  },
+  localeMeta: {
+    edges: [
+      {
+        node: {
+          key: 'abc',
+          value: 'etst',
         },
       },
     ],
