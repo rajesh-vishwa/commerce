@@ -32,6 +32,7 @@ export async function getStaticProps({
     throw new Error(`Product with slug '${params!.slug}' not found`)
   }
 
+  console.log('product: ', JSON.stringify(product))
   return {
     props: { pages, product },
     revalidate: 200,
