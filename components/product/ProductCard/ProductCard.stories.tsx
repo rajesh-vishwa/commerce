@@ -1,22 +1,22 @@
 import * as React from 'react'
 import { storiesOf } from '@storybook/react'
 import ProductCard from './ProductCard'
-import { cardData } from './cardData'
+import { node } from './cardData'
 
 storiesOf('ProductCard', module)
   .add('variant simple', () => {
-    // return (
-    //   <ProductCard
-    //     product={productData}
-    //     variant="simple"
-    //     imgWidth={480}
-    //     imgHeight={480}
-    //     imgPriority
-    //     imgLoading="eager"
-    //     imgLayout="fixed"
-    //   />
-    // )
-    return <div>A</div>
+    return (
+      <ProductCard
+        product={node}
+        variant="simple"
+        imgWidth={480}
+        imgHeight={480}
+        imgPriority
+        imgLoading="eager"
+        imgLayout="fixed"
+      />
+    )
+    //return <div>A</div>
   })
   .add('variant slim', () => {
     // return (

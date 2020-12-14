@@ -1,12 +1,17 @@
-export const cardData = {
+export const node = {
   entityId: 116,
-  name: 'Chaqueta de invierno',
+  name: 'Lightweight Jacket',
   path: '/matte-black-magic-mug/',
-  brand: { entityId: 37 },
+  brand: {
+    entityId: 37,
+  },
   description:
-    'Agregue un poco de chispa a su guardarropa de invierno con esta chaqueta rompevientos vibrante. Con un forro polar cepillado en el interior y un ajuste unisex relajado, esta chaqueta es solo el material de los sueños, ¡así que date prisa en conseguir una!',
+    '<p>Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!<br /><br /><span>Long sleeve ripstop jacket colorblocked in black. Rough pattern in obsidian black and brown printed throughout. Printed graphic in white throughout. Logo-woven webbing trim in white and black throughout. Bungee-style drawstring at hood featuring rubberized logo hardware. Zip closure at front. Rubberized logo appliqu&eacute; at chest. Welt pockets and textile logo patch in orange at waist. Elasticized cuffs. Partially lined. Black hardware.</span></p>',
   prices: {
-    price: { value: 249.99, currencyCode: 'USD' },
+    price: {
+      value: 249.99,
+      currencyCode: 'USD',
+    },
     salePrice: null,
     retailPrice: null,
   },
@@ -64,12 +69,42 @@ export const cardData = {
   },
   variants: {
     edges: [
-      { node: { entityId: 159, defaultImage: null } },
-      { node: { entityId: 164, defaultImage: null } },
-      { node: { entityId: 166, defaultImage: null } },
-      { node: { entityId: 169, defaultImage: null } },
-      { node: { entityId: 171, defaultImage: null } },
-      { node: { entityId: 172, defaultImage: null } },
+      {
+        node: {
+          entityId: 159,
+          defaultImage: null,
+        },
+      },
+      {
+        node: {
+          entityId: 164,
+          defaultImage: null,
+        },
+      },
+      {
+        node: {
+          entityId: 166,
+          defaultImage: null,
+        },
+      },
+      {
+        node: {
+          entityId: 169,
+          defaultImage: null,
+        },
+      },
+      {
+        node: {
+          entityId: 171,
+          defaultImage: null,
+        },
+      },
+      {
+        node: {
+          entityId: 172,
+          defaultImage: null,
+        },
+      },
     ],
   },
   productOptions: {
@@ -106,9 +141,21 @@ export const cardData = {
           displayName: 'Size',
           values: {
             edges: [
-              { node: { label: 'S' } },
-              { node: { label: 'M' } },
-              { node: { label: 'L' } },
+              {
+                node: {
+                  label: 'S',
+                },
+              },
+              {
+                node: {
+                  label: 'M',
+                },
+              },
+              {
+                node: {
+                  label: 'L',
+                },
+              },
             ],
           },
         },
