@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { storiesOf } from '@storybook/react'
 import ProductCard from './ProductCard'
-import { productData } from '../productData'
+import { cardData } from './cardData'
 
 storiesOf('ProductCard', module)
   .add('variant simple', () => {
