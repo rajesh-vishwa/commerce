@@ -1,9 +1,9 @@
 import React from 'react'
 import Swatch from './Swatch'
-import { product } from '../ProductView/data'
-import { getProductOptions } from '../helpers'
+//import { productData } from '../productData'
+//import { getProductOptions } from '../helpers'
 
-const options = getProductOptions(product)
+//const options = getProductOptions(productData)
 
 //console.log('options', options)
 
