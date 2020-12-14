@@ -20,7 +20,7 @@ storiesOf('ProductCard', module)
   .add('variant slim', () => {
     return (
       <ProductCard
-        product={product}
+        product={productData}
         variant="slim"
         imgWidth={320}
         imgHeight={320}
@@ -31,7 +31,7 @@ storiesOf('ProductCard', module)
   .add('animated', () => {
     return (
       <ProductCard
-        product={product}
+        product={productData}
         className="animated fadeIn"
         variant="simple"
         imgWidth={480}
